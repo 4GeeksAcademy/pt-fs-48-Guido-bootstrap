@@ -18,71 +18,67 @@
                 <i class="fa-brands fa-instagram fs-1 mx-2"><b></b></i>
                 <h2>Instagram</h2>
             </a>
-            
-            
-                <ul class="navbar-nav d-flex flex-row justify-content-end">
-                    <button type="button" class="btn btn-success me-2 bg-success" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
-                        Create a new post
-                    </button>
-
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
+            <ul class="navbar-nav d-flex flex-row justify-content-end">
+                <button type="button" class="btn btn-success me-2 bg-success" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Create a new post
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h6>Caption:</h6>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                                        placeholder="Add the cpation for your post here" rows="3"></textarea>
                                 </div>
-                                <div class="modal-body">
-                                    <h6>Caption:</h6>
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label"></label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1"
-                                            placeholder="Add the cpation for your post here" rows="3"></textarea>
-                                    </div>
+                            </div>
+                            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group m-2" role="group" aria-label="Third group">
+                                    <button type="button" class="btn btn-light border"><i
+                                            class="fa-solid fa-camera text-dark"></i></button>
                                 </div>
-                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                    <div class="btn-group m-2" role="group" aria-label="Third group">
-                                        <button type="button" class="btn btn-light border"><i
-                                                class="fa-solid fa-camera text-dark"></i></button>
-                                    </div>
-                                    <div class="btn-group m-2" role="group" aria-label="Third group">
-                                        <button type="button" class="btn btn-light border"><i
-                                                class="fa-solid fa-location-dot text-dark"></i></button>
-                                    </div>
+                                <div class="btn-group m-2" role="group" aria-label="Third group">
+                                    <button type="button" class="btn btn-light border"><i
+                                            class="fa-solid fa-location-dot text-dark"></i></button>
                                 </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-success">Publish</button>
-                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success">Publish</button>
                             </div>
                         </div>
                     </div>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle bg-secondary text-white rounded p-2" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-gear text-white"></i>
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="#">Profile</a></li>
-                            <li><a class="dropdown-item" href="#">Accessibility</a></li>
-                            <li><a class="dropdown-item" href="#">Privacy and data</a></li>
-                            <li><a class="dropdown-item text-danger border-top border-secondary" href="#">Log out</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            
+                </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bg-secondary text-white rounded p-2" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-gear text-white"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+                        <li><a class="dropdown-item text-danger border-top border-secondary" href="#">Log out</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
     </nav>
     <div class="container-fluid">
         <div class="row mb-4">
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="mosaic-tab" data-bs-toggle="tab" data-bs-target="#mosaic-tab-pane"
-                        type="button" role="tab" aria-controls="mosaic-tab-pane" aria-selected="true">
+                    <button class="nav-link active" id="mosaic-tab" data-bs-toggle="tab"
+                        data-bs-target="#mosaic-tab-pane" type="button" role="tab" aria-controls="mosaic-tab-pane"
+                        aria-selected="true">
                         <i class="fa-solid fa-table-cells"></i>
                     </button>
                 </li>
@@ -92,16 +88,12 @@
                         <i class="fa-solid fa-arrows-up-down"></i>
                     </button>
                 </li>
-
             </ul>
         </div>
-
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="mosaic-tab-pane" role="tabpanel" aria-labelledby="mosaic-tab"
                 tabindex="0">
-                <div class="row g-2 mosaico mb-4">
-
-
+                <div class="row g-2 mosaico mb-4 mx-1 mx-md-2 mx-lg-4 px-lg-4">
                     <div class="col-6 col-md-4">
                         <img src="https://picsum.photos/800?random=1" class="img-fluid" alt="alt" />
                     </div>
@@ -129,136 +121,141 @@
                     <div class="col-6 col-md-4">
                         <img src="https://picsum.photos/800?random=9" class="img-fluid" alt="alt" />
                     </div>
-
-
                 </div>
             </div>
             <div class="tab-pane fade" id="feed-tab-pane" role="tabpanel" aria-labelledby="feed-tab" tabindex="0">
                 <div class="row justify-content-center mb-4">
-
-
                     <div class="col-12 col-sm-10 col-md-8 col-lg-6 mb-2">
                         <div class="card mb-4" id="post1">
                             <div class="card-header bg-white fs-3">
-                              Look at this awesome picture!!
+                                Look at this awesome picture!!
                             </div>
-                            <div class="card-body p-0">
+                            <div class="card-body d-flex justify-content-center p-0">
                                 <img src="https://picsum.photos/800?random=1" class="img-fluid" alt="alt" />
                             </div>
                             <div class="card-footer bg-white">
-                              <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
-                              <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
+                                <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
+                                <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel
+                                    ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In
+                                    mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
                             </div>
                         </div>
                         <div class="card mb-4" id="post2">
                             <div class="card-header bg-white fs-3">
-                              Look at this awesome picture!!
+                                Look at this awesome picture!!
                             </div>
-                            <div class="card-body p-0">
+                            <div class="card-body d-flex justify-content-center p-0">
                                 <img src="https://picsum.photos/800?random=2" class="img-fluid" alt="alt" />
                             </div>
                             <div class="card-footer bg-white">
-                              <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
-                              <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
+                                <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
+                                ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In
+                                mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
                             </div>
-                          </div>
-                          <div class="card mb-4" id="post3">
+                        </div>
+                        <div class="card mb-4" id="post3">
                             <div class="card-header bg-white fs-3">
-                              Look at this awesome picture!!
+                                Look at this awesome picture!!
                             </div>
-                            <div class="card-body p-0">
+                            <div class="card-body d-flex justify-content-center p-0">
                                 <img src="https://picsum.photos/800?random=3" class="img-fluid" alt="alt" />
                             </div>
                             <div class="card-footer bg-white">
-                              <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
-                              <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
+                                <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
+                                <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel
+                                    ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In
+                                    mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
                             </div>
-                          </div>
-                          <div class="card mb-4" id="post4">
+                        </div>
+                        <div class="card mb-4" id="post4">
                             <div class="card-header bg-white fs-3">
-                              Look at this awesome picture!!
+                                Look at this awesome picture!!
                             </div>
-                            <div class="card-body p-0">
+                            <div class="card-body d-flex justify-content-center p-0">
                                 <img src="https://picsum.photos/800?random=4" class="img-fluid" alt="alt" />
                             </div>
                             <div class="card-footer bg-white">
-                              <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
-                              <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
+                                <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
+                                <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel
+                                    ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In
+                                    mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
                             </div>
-                          </div>
-                          <div class="card mb-4" id="post5">
+                        </div>
+                        <div class="card mb-4" id="post5">
                             <div class="card-header bg-white fs-3">
-                              Look at this awesome picture!!
+                                Look at this awesome picture!!
                             </div>
-                            <div class="card-body p-0">
+                            <div class="card-body d-flex justify-content-center p-0">
                                 <img src="https://picsum.photos/800?random=5" class="img-fluid" alt="alt" />
                             </div>
                             <div class="card-footer bg-white">
-                              <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
-                              <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
+                                <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
+                                <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel
+                                    ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In
+                                    mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
                             </div>
-                          </div>
-                          <div class="card mb-4" id="post6">
+                        </div>
+                        <div class="card mb-4" id="post6">
                             <div class="card-header bg-white fs-3">
-                              Look at this awesome picture!!
+                                Look at this awesome picture!!
                             </div>
-                            <div class="card-body p-0">
+                            <div class="card-body d-flex justify-content-center p-0">
                                 <img src="https://picsum.photos/800?random=6" class="img-fluid" alt="alt" />
                             </div>
                             <div class="card-footer bg-white">
-                              <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
-                              <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
+                                <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
+                                <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel
+                                    ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In
+                                    mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
                             </div>
-                          </div>
-                          <div class="card mb-4" id="post7">
+                        </div>
+                        <div class="card mb-4" id="post7">
                             <div class="card-header bg-white fs-3">
-                              Look at this awesome picture!!
+                                Look at this awesome picture!!
                             </div>
-                            <div class="card-body p-0">
+                            <div class="card-body d-flex justify-content-center p-0">
                                 <img src="https://picsum.photos/800?random=7" class="img-fluid" alt="alt" />
                             </div>
                             <div class="card-footer bg-white">
-                              <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
-                              <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
+                                <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
+                                <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel
+                                    ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In
+                                    mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
                             </div>
-                          </div>
-                          <div class="card mb-4" id="post8">
+                        </div>
+                        <div class="card mb-4" id="post8">
                             <div class="card-header bg-white fs-3">
-                              Look at this awesome picture!!
+                                Look at this awesome picture!!
                             </div>
-                            <div class="card-body p-0">
+                            <div class="card-body d-flex justify-content-center p-0">
                                 <img src="https://picsum.photos/800?random=8" class="img-fluid" alt="alt" />
                             </div>
                             <div class="card-footer bg-white">
-                              <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
-                              <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
+                                <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
+                                <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel
+                                    ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In
+                                    mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
                             </div>
-                          </div>
-                          <div class="card mb-4" id="post9">
+                        </div>
+                        <div class="card mb-4" id="post9">
                             <div class="card-header bg-white fs-3">
-                              Look at this awesome picture!!
+                                Look at this awesome picture!!
                             </div>
-                            <div class="card-body p-0">
+                            <div class="card-body d-flex justify-content-center p-0">
                                 <img src="https://picsum.photos/800?random=9" class="img-fluid" alt="alt" />
                             </div>
                             <div class="card-footer bg-white">
-                              <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
-                              <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
+                                <p class="reactions">Liked by <b>Guido Bonino, Alma Elena, Matilda...</b> y 46 más</p>
+                                <p class="coments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel
+                                    ipsum quis ex elementum vehicula. Phasellus a luctus tortor, id elementum nunc. In
+                                    mauris enim, rhoncus at purus eu, pharetra dignissim orci.</p>
                             </div>
-                          </div>
-                        
+                        </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
-
-
     </div>
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
     </script>
